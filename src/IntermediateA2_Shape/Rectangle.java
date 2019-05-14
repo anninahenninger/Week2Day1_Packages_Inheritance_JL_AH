@@ -1,3 +1,5 @@
+package IntermediateA2_Shape;
+
 public class Rectangle extends Shape {
     double width;
     double height;

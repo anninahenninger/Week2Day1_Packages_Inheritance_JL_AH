@@ -1,4 +1,4 @@
-/*A1: Person, Student
+package BasicA1;/*A1: Person, Student
 
         Declare the Person class that describes a human and the Student class that extends Person.
 

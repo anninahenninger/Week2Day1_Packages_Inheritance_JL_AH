@@ -1,4 +1,4 @@
-/*A3: Manager, Clerk, Employee
+package IntermediateA3_Manager;/*A3: Manager, Clerk, Employee
 Declare the following classes:
 The Manager class, that extends Employee, describes a manager.
 The Clerk class, that extends Employee, describes a clerk.

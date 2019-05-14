@@ -1,3 +1,5 @@
+package IntermediateA3_Manager;
+
 public class Manager extends Employee{
 
     public Manager (String name, int age, double hourlyRate){

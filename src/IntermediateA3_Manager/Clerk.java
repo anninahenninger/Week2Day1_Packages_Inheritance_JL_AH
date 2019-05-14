@@ -1,3 +1,5 @@
+package IntermediateA3_Manager;
+
 public class Clerk extends Employee{
 
     public Clerk (String name, int age, double hourlyRate){

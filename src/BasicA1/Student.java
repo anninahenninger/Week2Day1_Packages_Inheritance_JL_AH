@@ -1,3 +1,5 @@
+package BasicA1;
+
 public class Student extends Person{
 
     int avg = 0;

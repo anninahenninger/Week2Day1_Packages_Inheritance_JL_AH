@@ -1,3 +1,5 @@
+package BasicA1;
+
 public class Teacher extends Person {
 
     public String subject;

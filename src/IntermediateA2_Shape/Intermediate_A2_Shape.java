@@ -1,3 +1,5 @@
+package IntermediateA2_Shape;
+
 /**
  * Declare the following classes: the Rectangle class, that extends Shape, describes a simple rectangle.
  *

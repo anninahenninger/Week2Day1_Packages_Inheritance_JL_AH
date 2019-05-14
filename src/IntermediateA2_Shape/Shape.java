@@ -1,3 +1,5 @@
+package IntermediateA2_Shape;
+
 public abstract class Shape {
 
     public Shape(){
