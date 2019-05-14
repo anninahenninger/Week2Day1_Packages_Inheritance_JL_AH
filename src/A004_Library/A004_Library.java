@@ -2,7 +2,6 @@ package A004_Library;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 /**
@@ -50,12 +49,13 @@ public class A004_Library {
 
         System.out.println("ID   TITLE                         AUTHOR                   PAGES");
         System.out.println("-----------------------------------------------------------------");
-        for(Book abook : books){
-            abook.printbook();
+        for(Book aBook : books){
+            aBook.printBook();
         }
         DateFormat formatter = new SimpleDateFormat("dd. MMM yyyy");
         //formatter.setLenient(false);
-        System.out.println(formatter.format(b1.rentEnd.getTime()));
+
         System.out.println(formatter.format(b1.rentStart.getTime()));
+        System.out.println(formatter.format(b1.rentEnd.getTime()));
     }
 }

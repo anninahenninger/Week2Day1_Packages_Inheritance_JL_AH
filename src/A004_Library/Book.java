@@ -11,7 +11,7 @@ public class Book {
     static int counter = 100;
     int bookID;
     boolean isRented;
-    final GregorianCalendar rentStart;
+    GregorianCalendar rentStart;
     GregorianCalendar rentEnd;
 
     public Book(String title, String author, int pages, boolean isRented, GregorianCalendar rentStart){
@@ -24,15 +24,14 @@ public class Book {
         this.rentStart = rentStart;
         this.rentEnd = calcRentDur();
     }
-    public void printbook(){
+    public void printBook(){
         System.out.printf("%-5d" +  "%-30s" + "%-25s" + "%d%n", bookID, title, author, pages);
     }
     public GregorianCalendar calcRentDur(){
         if(rentStart != null) {
-            this.rentEnd = this.rentStart;
+            this.rentEnd = (GregorianCalendar)this.rentStart.clone();
             this.rentEnd.add(GregorianCalendar.DATE, 2);
             }
         return this.rentEnd;
     }
-
 }
